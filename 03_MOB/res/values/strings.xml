@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ch02_ShareSDK</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="securitycodesdk">SecurityCodeSDK_短信验证码</string>
+    <string name="sharesdk">ShareSDK_在线分享</string>
+
+</resources>

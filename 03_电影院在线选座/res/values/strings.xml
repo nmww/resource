@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name1">MovXuan</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="app_name">SeatTable</string>
+    <string name="cinema_screen">屏幕方向</string>
+</resources>

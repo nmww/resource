@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="body_background">#F9FAF5</color>
+    <color name="white_background">#FFFFFF</color>
+    <color name="transparent"> #B0000000 </color>
+    <color name="no_color"> #00000000 </color>
+    <color name="halftransparent">#9000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="red">#ff0000</color>
+    <color name="grey">#FF999999</color>
+    <color name="lightgrey">#30D9D9D9</color>
+    <color name="lightgrey1">#3F999999</color>
+
+    <drawable name="duigou1">@drawable/duigou1</drawable>
+    <drawable name="duigou2">@drawable/duigou2</drawable>
+
+    <color name="text_uncheck">#ff585858</color>
+    <color name="two_main_background">#fff6f6f6</color>
+    <color name="two_top_line_color">#ff78aa55</color>
+    <color name="small_info_text_color">#ff6e6e6e</color>
+    <color name="one_text_color">#ff6e6e6e</color>
+    <color name="small_describe_text_color">#ff000000</color>
+    <color name="list_divider">#ffcdcdcd</color>
+    <color name="two_text_color">#ff6e6e6e</color>
+    <color name="list_item_click">#ffdcebcd</color>
+    <color name="standard_info_text_color">#ff323232</color>
+    <color name="two_top_bg">#fff6f6f6</color>
+    <color name="general_describe_text_color">#ff5a5a5a</color>
+    <color name="setting_background_color">#222222</color>
+    <color name="intercept_title_bg_color">#E1E1E1</color>
+    <color name="shadow">#333333</color>
+    <color name="solid_white">#fff</color>
+    <color name="verylightblue">#CDECFF</color>
+    <color name="harassment_title_bg_color">#99F3F0F0</color>
+    <color name="call_mark_check_noreck_color">#DB3F15</color>
+    <color name="call_mark_uncheck_noreck_color">#404040</color>
+    <color name="list_background_press_color">#DB3F16</color>
+    <color name="biaoji_float_background">#22000000</color>
+    <color name="biaoji_float_title_bg_color">#DDFFFFFF</color>
+
+</resources>

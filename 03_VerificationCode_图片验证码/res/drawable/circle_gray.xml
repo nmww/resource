@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 88代表透明度，，，ffffff代表为白色的透明度     radius="3.0dip"半径自定义-->
+      <solid android:color="#33ffffff" />
+      <corners android:radius="3.0dip" />
+
+</shape>

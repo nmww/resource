@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, DemoActiivty!</string>
+    <string name="app_name">AibangAndroidOpenSdkDemo</string>
+    <string name="tv_start">始发站</string>
+    <string name="tv_end">终点站</string>
+    <string name="et_start">输入始发站</string>
+    <string name="et_end">输入终点站</string>
+    <string name="btn_query">查  询</string>
+    <string name="search">搜索商户</string>
+    <string name="biz">商户详情</string>
+    <string name="bus">公交换乘</string>
+    <string name="post_comment">发表点评</string>
+
+</resources>

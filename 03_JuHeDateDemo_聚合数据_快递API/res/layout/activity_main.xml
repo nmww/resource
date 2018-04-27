@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+  <!--   <TextView
+        android:id="@+id/tv_names"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="顺丰快递"/>
+    
+     -->
+    <ListView
+        android:id="@+id/klistview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" 
+        android:layout_below="@+id/tv_names"/>
+
+   <!--  <TextView
+        android:id="@+id/tv_nos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/tv_names"
+        android:text="快递号" />
+ -->
+</RelativeLayout>

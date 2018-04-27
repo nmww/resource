@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+   <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        >
+        
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:textSize="40dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="谢谢惠顾"
+            android:background="@android:color/holo_red_dark"
+            />
+        
+        <com.example.guale.EraseView
+        android:id="@+id/eraseView1"
+        android:layout_width="300dp"
+        android:layout_height="150dp"/>
+
+       
+
+    </RelativeLayout>
+</LinearLayout>

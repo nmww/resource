@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- SYSTEM STATUS BAR START -->
+    <color name="ab_149ec7">#149EC7</color>
+    <color name="ab_c8c7c5">#C8C7C5</color>
+    <!-- SYSTEM STATUS BAR END -->
+
+    <color name="ab_b4">#B4B4B4</color>
+    <color name="ab_gray">#855E42</color>
+</resources>

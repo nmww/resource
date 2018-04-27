@@ -1,0 +1,80 @@
+package me.maxwin;
+
+import java.util.ArrayList;
+
+import me.maxwin.view.City;
+import me.maxwin.view.ListAdapter;
+import me.maxwin.view.XListView;
+import me.maxwin.view.XListView.IXListViewListener;
+import android.app.Activity;
+import android.os.Bundle;
+import android.os.Handler;
+
+public class XListViewActivity extends Activity implements IXListViewListener{
+	private XListView mListView;
+	private ListAdapter mAdapter;
+	private ArrayList<City> items = new ArrayList<City>();
+	private Handler mHandler;
+	private int start = 0;
+	private static int refreshCnt = 0;
+	/** Called when the activity is first created. */
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.main);
+		geneItems();
+		mListView = (XListView) findViewById(R.id.xListView);
+		mListView.setPullLoadEnable(true);
+		mAdapter = new ListAdapter(this, items);
+		mListView.setAdapter(mAdapter);
+		mListView.setXListViewListener(this);
+		mHandler = new Handler();
+	}
+
+	//获取数据
+	private void geneItems() {
+		for (int i = 0; i != 20; ++i) {	
+			City city = new City();
+			city.setCityName("北京 "+(++start));
+			city.setPath("http://pic.cnitblog.com/avatar/a210374.jpg?id=07224045");
+			items.add(city );
+		}
+	}
+
+	private void onLoad() {
+		mListView.stopRefresh();
+		mListView.stopLoadMore();
+		mListView.setRefreshTime("刚刚");
+	}
+	
+	@Override
+	public void onRefresh() {
+		
+		mHandler.postDelayed(new Runnable() {
+			@Override
+			public void run() {
+				start = ++refreshCnt;
+				items.clear();
+				geneItems();
+				//mAdapter = new ArrayAdapter<String>(XListViewActivity.this, R.layout.list_item, items);
+				//mListView.setAdapter(mAdapter);
+				onLoad();
+				mAdapter.notifyDataSetChanged();
+			}
+		}, 2000);
+		
+	}
+
+	@Override
+	public void onLoadMore() {
+		mHandler.postDelayed(new Runnable() {
+			@Override
+			public void run() {
+				geneItems();
+				onLoad();
+				mAdapter.notifyDataSetChanged();
+			}
+		}, 2000);
+	}
+
+}

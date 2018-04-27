@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<RelativeLayout 
+        android:id="@+id/MyLayout_top"
+        android:orientation="horizontal" 
+        android:layout_width="fill_parent"
+        android:layout_height="44dp" 
+        android:layout_alignParentTop="true"
+        android:gravity="center">
+        
+        <include 
+            android:focusable="true" 
+            layout="@layout/main_title" 
+            android:id="@+id/layout_top"/>
+        
+    </RelativeLayout>
+    
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+       <TextView 
+            android:layout_width="100dip"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="背景DIY"
+            android:textColor="#ff00ff">
+        </TextView>
+        
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10.0dp">
+    
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginRight="5.0dp"
+            android:background="@drawable/wp1" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="5.0dp"
+            android:background="@drawable/wp2" />
+        </LinearLayout>
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10.0dp">
+    
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginRight="5.0dp"
+            android:background="@drawable/wp3" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="5.0dp"
+            android:background="@drawable/wp4" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10.0dp">
+    
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginRight="5.0dp"
+            android:background="@drawable/wp5" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="5.0dp"
+            android:background="@drawable/wp6" />
+        </LinearLayout>
+        
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        
+	<TextView 
+        android:layout_width="100dip"
+        android:layout_height="30dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="标题DIY"
+        android:textColor="#ff00ff">
+        </TextView>
+        
+	 <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10.0dp">
+    
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="5.0dp"
+            android:background="@drawable/color1" 
+            android:text="蓝色"/>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5.0dp"
+            android:background="@drawable/color2" 
+            android:text="粉红色"/>
+        </LinearLayout>
+        
+	 <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10.0dp">
+    
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="5.0dp"
+            android:background="@drawable/color3"
+            android:text="绿色" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5.0dp"
+            android:background="@drawable/color4"
+            android:text="棕色" />
+        </LinearLayout>
+        
+	 <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10.0dp">
+    
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="5.0dp"
+            android:background="@drawable/color5"
+            android:text="黑色" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5.0dp"
+            android:background="@drawable/color6"
+            android:text="紫红色" />
+        </LinearLayout>
+        
+	 <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10.0dp">
+    
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="5.0dp"
+            android:background="@drawable/color7"
+            android:text="浅蓝色" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5.0dp"
+            android:background="@drawable/color8"
+            android:text="紫色" />
+        </LinearLayout>
+	
+	
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

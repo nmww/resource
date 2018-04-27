@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AndBook-Client</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="ab_sync_button">Sync my chrome</string>
+    <string name="ab_sync_prepare">Prepare to sync...</string>
+    <string name="ab_sync_progress">Syncing...</string>
+    <string name="ab_sync_complete">Sync my chrome completed</string>
+    <string name="ab_sync_fail">Sync my chrome failed</string>
+    <string name="ab_percent">%1$d%%</string>
+
+    <string name="ab_bt_connected">Bluetooth connected</string>
+    <string name="ab_bt_disconnected">Bluetooth disconnected</string>
+
+    <string name="ab_my_bt_device">My Bluetooth Device</string>
+    <string name="ab_scanned_bt_devices">Scanned Bluetooth Devices</string>
+
+
+</resources>

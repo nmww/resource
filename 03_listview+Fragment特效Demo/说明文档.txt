@@ -1,0 +1,4 @@
+ listview与Fragment结合实现的分类效果
+
+
+   listview点击事件里 实现fragment 替换，listview的Item背景切换是适配的刷新，适配器里设置Item背景

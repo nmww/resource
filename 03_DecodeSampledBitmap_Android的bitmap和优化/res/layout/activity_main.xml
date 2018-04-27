@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/ll_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/iv_before"
+            style="@android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="bornBitmap"
+            android:text="@string/iv_before" />
+
+        <Button
+            android:id="@+id/iv_after"
+            style="@android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="scaleBitmap"
+            android:text="@string/iv_after" />
+
+        <Button
+            android:id="@+id/iv_background"
+            style="@android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="backgroundImage"
+            android:text="@string/iv_background" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll_btn" >
+
+        <ImageView
+            android:id="@+id/iv_bitmap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/iv_bitmap"
+            android:src="@drawable/ic_launcher" />
+    </RelativeLayout>
+
+</RelativeLayout>

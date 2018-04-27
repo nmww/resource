@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${packageName}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/tv_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="内容：" />
+
+    <LinearLayout
+        android:id="@+id/main_contain"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="400dp"
+        android:layout_marginTop="300dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff0000"
+            android:text="one" />
+
+        <Button
+            android:id="@+id/btnTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff00c0"
+            android:text="two" />
+
+        <Button
+            android:id="@+id/btnThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ccffc0"
+            android:text="three" />
+
+        <Button
+            android:id="@+id/btnFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff0000"
+            android:text="Four"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+  拍照上传
+1.拍照：点击拍照启动系统自带的照相机，完成拍摄照片
+startActivityForResult(intent, PHOTO_GRAPH);
+2.在带返回值的方法onActivityResult（）中读取拍摄完保存照片的路径转换压缩成Bitmap添加到控件imagview上
+
+相册选取：
+1.点击相册选取打开系统检测到的图库选取图片startActivityForResult(intent, PHOTO_ZOOM);
+2.在带返回值的方法onActivityResult（）中Cursor查询到图片路径转换成Bitmap添加到控件imagview上
+
+因为在android中，每个应用程序是可以实现数据共享的，对于每一个应用程序程序都拥有一个contentprovider实例进行存储，
+
+上传：
+1.通过图片路径读取转换成文件流
+new FileInputStream(new File(filename));
+2.读取文件流转换成byte数组，将数组转换成ByteArrayOutputStream的形式
+3.通过Base64.encode(baos.toByteArray())将流转换成字符串的形式发送服务器

@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+   android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="${packageName}.${activityClass}" >
+
+   <ImageView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:src="@drawable/sample_2"
+    android:id="@+id/imageView"
+    android:scaleType="matrix" 
+    />  <!-- 指定为matrix类型 -->
+
+</LinearLayout>

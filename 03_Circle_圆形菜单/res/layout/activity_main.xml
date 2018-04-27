@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.example.circle.MenuView
+        android:id="@+id/menu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#c3d2a1" >
+    </com.example.circle.MenuView>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-20dp"
+        android:background="@drawable/circle_bg"
+        android:gravity="center"
+        android:text="+"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+</RelativeLayout>

@@ -1,0 +1,2 @@
+ListView多选实现思路：
+    用Map数组保持Position和checkbox的选择状态，遍历Map数组获取被选择的Item位置，相对Item里的控件。

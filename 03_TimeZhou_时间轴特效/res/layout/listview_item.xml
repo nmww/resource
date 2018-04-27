@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+   <!-- 一个需要显示隐藏的标题栏，包括一个小圆点和一个显示时间的TextView，第二部分是展示的内容，最后是时间轴的竖线。 -->
+     <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp" >
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/btn_radio_on_holo_light" />
+
+        <TextView
+            android:id="@+id/txt_date_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:textColor="#FC6802" 
+            android:text="时间"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt_date_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_title"
+        android:layout_marginLeft="15dp"
+        android:paddingBottom="10dp"
+        android:textColor="#5296C5"
+        android:text="内容" />
+
+    <View
+        android:id="@+id/v_line"
+        android:layout_width="2dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:background="#FC6802" />
+     
+  
+</RelativeLayout>

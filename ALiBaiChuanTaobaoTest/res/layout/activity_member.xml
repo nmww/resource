@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/show_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showLogin"
+        android:text="打开登录授权" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="logout"
+        android:text="登出" />
+
+    <Button
+        android:id="@+id/showQrLogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showQrLogin"
+        android:text="扫码登录" />
+
+    <Button
+        android:id="@+id/open_taoke_detail_global_itemId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showTaokeItemDetailGlobal"
+        android:text="打开淘客商品不混淆（全球版" />
+
+    <EditText
+        android:id="@+id/itemInputDataGlobalV2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="请输入未混淆itemID 不填为默认值" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

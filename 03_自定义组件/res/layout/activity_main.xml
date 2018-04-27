@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.lou.zidingyizujian"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <!-- <com.example.customattrexample.view.MyTextView
+        android:id="@+id/myView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="app_name"
+        lee:customtextSize="20sp"
+        lee:customtextColor="#ff0000">
+        
+    </com.example.customattrexample.view.MyTextView> -->
+    
+    <com.example.customattrexample.view.MyTextView
+        android:id="@+id/myView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="app_name"
+        custom:customtextSize="20sp"
+        custom:customtextColor="@color/green"/>
+        
+   <com.example.customattrexample.view.TextView1 
+        android:id="@+id/myView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:color="@color/green"
+        custom:size="12sp"
+        android:text="aaaaaaaaaa"/>
+    
+    </LinearLayout>

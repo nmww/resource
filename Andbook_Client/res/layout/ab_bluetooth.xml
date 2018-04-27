@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lenovo.andbook.client.ABBluetoothActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="57.75">
+        <TextView
+            android:id="@+id/ab_my_device_tag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ab_my_bt_device"
+            android:background="@color/ab_gray"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/ab_my_bt_name"
+            android:layout_below="@id/ab_my_device_tag"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/ab_b4"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/ad_bt_text"
+            android:layout_below="@id/ab_my_bt_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ab_bluetooth_line" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="299">
+
+        <TextView
+            android:id="@+id/ab_scan_tag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ab_scanned_bt_devices"
+            android:background="@color/ab_gray"
+            android:textSize="15sp"/>
+
+        <ListView
+            android:layout_below="@id/ab_scan_tag"
+            android:id="@+id/ab_scan_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/ab_scan_text"
+            android:layout_below="@id/ab_scan_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"/>
+    </RelativeLayout>
+</LinearLayout>

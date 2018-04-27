@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- SYSTEM STATUS BAR START -->
+    <dimen name="ab_sys_status_bar_lpading">8dp</dimen>
+    <dimen name="ab_sys_status_bar_rpading">10dp</dimen>
+    <dimen name="ab_sys_status_bar_height">8dp</dimen>
+    <dimen name="ab_sys_status_bar_radius">4dp</dimen>
+
+    <dimen name="ab_notification_large_icon_width">48dp</dimen>
+    <dimen name="ab_notification_large_icon_height">48dp</dimen>
+
+    <!-- TOAST SINGLE ROW -->
+    <dimen name="ab_toast_single_lrpading">64dp</dimen>
+    <dimen name="ab_toast_single_tbpading">32dp</dimen>
+
+    <dimen name="ab_size_24">24sp</dimen>
+
+</resources>
